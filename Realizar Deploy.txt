@@ -1,0 +1,42 @@
+npm run build 
+
+	se genera la carpeta dist que sera la usada para hacer el despliegue 
+
+
+Deploy por medio de gitHub
+
+	crear un nuevo repositorio
+	hacer push al nuevo proyecto 
+	Seleccionar repositorio desde netlify
+
+INTEGRACION CONTINUA 
+
+	crear y cambiar a nuevo branch 	
+
+		git checkout -b nuevo-header main 
+
+		(Realizar los cambios respectivos )
+
+
+	agregar los archivos que tuvieron cambios
+		git add . || nombreArchivo
+
+	Realizar commit 
+
+		git commit -m "descipcion de los cambios "
+
+	Regresar a main 	
+
+		git checkout main 
+
+	Realizar a merge si todo funciona correctamente
+
+		git merge NombreDelBranch
+
+	Eliminar brach que ya fue agregado
+
+		git branch -d nuevo-header
+
+	Actualizar cambios en github
+		
+		git push -u origin main 
