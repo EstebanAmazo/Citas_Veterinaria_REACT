@@ -11,4 +11,4 @@ npm run dev
 ```
 El servidor estará activo en http://localhost:3000/
 
-Demo: https://segveterinaria.netlify.app/
+DEMO: https://segveterinaria.netlify.app/
