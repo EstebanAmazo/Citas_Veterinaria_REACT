@@ -10,4 +10,4 @@ npm i
 npm run dev
 ```
 
-DEMO: https://gastoscontrolreact.netlify.app/
+DEMO: https://segveterinaria.netlify.app/
