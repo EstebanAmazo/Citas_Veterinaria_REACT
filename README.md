@@ -9,6 +9,5 @@ npm i
 ```
 npm run dev
 ```
-El servidor estará activo en http://localhost:3000/
 
-DEMO: https://segveterinaria.netlify.app/
+DEMO: https://gastoscontrolreact.netlify.app/
